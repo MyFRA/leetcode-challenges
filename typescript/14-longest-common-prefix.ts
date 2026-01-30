@@ -1,5 +1,4 @@
 function longestCommonPrefix(strs: string[]): string {
-    const map = new Map();
     let stringPrefix = "";
 
     let amountShortestString = strs[0].length;

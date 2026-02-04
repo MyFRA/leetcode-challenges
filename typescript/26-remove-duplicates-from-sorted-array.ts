@@ -11,8 +11,6 @@ function removeDuplicates(nums: number[]): number {
         }
     })
 
-    console.log(nums)
-
     return arrRemovedDuplicates.length;
 };
 
